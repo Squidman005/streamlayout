@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Stream Overlay</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<video autoplay muted loop playsinline id="bgVideo">
+    <source src="assets/background.mp4" type="video/mp4">
+</video>
+
+<div class="grid">
+
+    <div class="box" id="time">
+        <span id="clock"></span>
+    </div>
+
+    <div class="box" id="mainText">
+        Mindjárt jövök
+    </div>
+
+    <div class="box" id="gifBox">
+        <img src="assets/dumbahh.gif" alt="gif">
+    </div>
+
+    <div class="box" id="chat">
+        <div class="dummyChat">
+            <div class="msg">Kilógok: Lorem ipsum dolor sit amet</div>
+            <div class="msg">Test_2: consectetur adipiscing elit.</div>
+            <div class="msg">Test_3: Donec id dignissim lorem</div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+            <div class="msg">Test_ 4: Nunc varius scelerisque diam Nunc varius scelerisque diam Nunc varius scelerisque diam Nunc varius scelerisque diam Nunc varius scelerisque diam Nunc varius scelerisque diam Nunc varius scelerisque diam Nunc varius scelerisque diam </div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+            <div class="msg">Test_longahhname: ut ornare lacus</div>
+        </div>
+
+        <iframe src="https://www.twitch.tv/popout/krxztyan/chat?popout="></iframe>
+    </div>
+
+    <div class="box" id="twitch">
+        <span>
+            <img class="icon" src="assets/twitch.png" alt="twitch">
+            krxztyan
+        </span>
+    </div>
+
+    <div class="box" id="insta">
+        <span>
+            <img class="icon" src="assets/instagram.png" alt="instagram">
+            krxztyan.ig
+        </span>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
